@@ -11,7 +11,7 @@
     <P>Hello World!</P>
     <header id = "header">
       <img id = "header-img" src="../logo.jpeg" alt= "image">
-      <nav id="nav-bar"> 
+      <nav id="nav-bar" > 
         <button><a class="nav-link" href="#Element-1" >ELEMENT 1</a></button>
         <button><a class="nav-link" href="#Element-2" >ELEMENT 2</a></button>
         <button><a class="nav-link" href="#Element-3" >ELEMENT 3</a></button>
@@ -40,14 +40,17 @@
     <video id ="video" src = "https://www.youtube.com/watch?v=l0U7SxXHkPY" controls autoplay>
 
     </video>
-    <form id = "form">
+    <form action="https://www.freecodecamp.com/email-submit" id = "form">
       <label for="email">Enter Email</label>
-      <input type="email" id ="email">
+      <input name="email" type="email" id ="email" value="Enter Email">
+
+      <div class="submit">
+        <input  type="submit" id="submit">Submit</input>
+      </div>
     </form>
     
 
     <!--
-
     Hello Camper!
 
     For now, the test suite only works in Chrome!
